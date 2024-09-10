@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    color: rgb(22, 20, 20);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar-links a i {
+    margin-right: 8px;
+}
+
+.mainhome {
+    margin-left: 150px;
+}
+
+.container {
+    display: flex;
+}
+
+/* footer */
+
+footer {
+    margin-top: 15px;
+
+}
+
+#nav-2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+
+
+#nav-3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-4 {
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 25px;
+}
+
+#copyryt {
+    font-size: 0.7rem;
+    text-align: center;
+}

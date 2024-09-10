@@ -1,0 +1,44 @@
+h1{
+    align-items: center;
+}
+
+table, th, td {
+    border:0.5px solid black;
+    border-collapse: collapse;
+    background-co;
+}
+
+th:hover{
+    background-color: azure;
+}
+td:hover{
+    background-color: rgb(226, 226, 132);
+}
+
+table{
+    width: 600px;
+}
+
+th{
+    background-color: aqua;
+}
+
+th:nth-child(1){
+    background-color: antiquewhite;
+}
+td:nth-child(1){
+    background-color: rgb(141, 238, 114);
+}
+td:nth-child(even){
+    background-color: rgb(192, 150, 231);
+}
+td:nth-child(5){
+    background-color: rgb(226, 224, 75);
+}
+td:nth-child(3){
+    background-color: rgb(111, 190, 239);
+}
+.sec >tr{
+    margin-bottom: 30px;
+}
+.sec
